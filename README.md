@@ -1,11 +1,10 @@
-source activate Atlas
+# Atlas
 
-Atlas = {}
+## Introduction
 
-Atlas["Down"] = 'Wireless Network Testbed with CC2530 and Wifi module'
+Atlas is a testbed for energy-efficiency wireless sensor network topolopy management. It is based on a co-simulation between ns3 and MATLAB. 
 
-Atlas["Media"] = 'CV realized by Tensorflow and mutiple sensor collections'
+## Features
 
-Atlas["Up"] = 'NS3 and mainstream machine learning tools'
-
-#wish to amend the old standard writen in 2000 by Great Heizeman. And explore the interesting scope of IoTs tech.
+- Self-Adpative: Smart adaptive to the change of environments supported by time series curriculm classification
+- Multi Agent System: Scalable to multidevices
